@@ -1,6 +1,6 @@
-#Get Tweet
+# Get Tweet
 
-##Usage
+## Usage
 1. Parameters. There are 3 parameters, `hashtag`, `from`, `count`.
 
 	`hashtag`: Search the tweets with certain hashtag. You don't need to include the `#`. If you are looking for multiple hashtags, seperate the value by comma (`,`).
@@ -69,7 +69,7 @@
 	urls->url: the url of this tweet (useful for debuging).
 	```
 
-##Get Bearer Token
+## Get Bearer Token
 1. To use bearer tokens, we need to create a developer account.
 <https://developer.twitter.com/en/docs/basics/authentication/guides/bearer-tokens>
 
@@ -88,7 +88,7 @@
 
 4. Set the `BEARER_TOKEN` in `tweet.php`.
 	
-##Deploy
+## Deploy
 1. I am running on `MAMP` local server for testing.
 
 	```
@@ -102,12 +102,12 @@
 
 3. Set the `BEARER_TOKEN` in `tweet.php`. I use the `BEARER_TOKEN` because we don't need the information that needs login to get; it is more suitable for our purpose.
 
-##What's Next
+## What's Next
 1. I will store the `BEARER_TOKEN` in a seperated file. Get or invalidate it by private function. The purpose is to keep it from public access and manipulate it by hand.
 
 2. There are many complicated search we can do by Twitter API.
 
-##Resources
+## Resources
 <https://developer.twitter.com/en/docs/tweets/search/api-reference/get-search-tweets.html>
 
 <https://developer.twitter.com/en/docs/tweets/search/guides/standard-operators>
