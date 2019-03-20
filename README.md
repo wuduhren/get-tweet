@@ -1,4 +1,5 @@
 #Get Tweet
+
 ##Usage
 1. Parameters. There are 3 parameters, `hashtag`, `from`, `count`.
 
@@ -108,5 +109,7 @@
 
 ##Resources
 <https://developer.twitter.com/en/docs/tweets/search/api-reference/get-search-tweets.html>
+
 <https://developer.twitter.com/en/docs/tweets/search/guides/standard-operators>
+
 <https://github.com/jonhurlock/Twitter-Application-Only-Authentication-OAuth-PHP>
